@@ -140,7 +140,9 @@ nav h4 {
   font-family: pb;
 }
 
-.page-2-bg {
+.page-2-bg,
+.page-4-bg,
+.page-3-bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -152,14 +154,14 @@ nav h4 {
 
 .elem {
   position: absolute;
-  top: 15%;
+  top: 12%;
   /* Adjust as needed */
-  left: 10%;
+  left: 12%;
   /* Adjust as needed */
   z-index: 2;
   /* Ensures the .elem div appears above the background image */
   background-color: white;
-  width: 80%;
+  width: 75%;
   height: 80%;
   padding: 20px;
   border-radius: 20px;

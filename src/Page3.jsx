@@ -1,16 +1,17 @@
-// Page3.jsx
 import React from 'react';
-import bg_image from './assets/images/page-2-bg.jpg';
+import bg_image from './assets/images/page-3-bg.jpg';
 import p1Image from './assets/images/p1.jpg'; // Import images
 import p2Image from './assets/images/p2.jpg';
 import p3Image from './assets/images/p3.jpg';
 import p4Image from './assets/images/p4.jpg';
 
+
 function Page3() {
+
     return (
         <div id="page3">
             <div className="gradient-overlay"></div>
-            <img src={bg_image} className="page-2-bg" alt="page-2-bg" />
+            <img src={bg_image} className="page-3-bg" alt="page-2-bg" />
 
             <div className="elem">
                 <form>
@@ -61,9 +62,12 @@ function Page3() {
                     </div>
 
                     <div className="mb-3">
-                        <button className="button">
-                            <a href="scan.html" className="button_text">Scan Crop</a>
+                        {/* Use a simple anchor tag for navigation */}
+                        <button className="button" href="#page4">
+                            <a href="#page4" className=" button_text">Scan Crop</a>
                         </button>
+
+
                     </div>
                 </form>
             </div>
