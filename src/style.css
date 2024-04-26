@@ -1,0 +1,291 @@
+@font-face {
+  font-family: nb;
+  src: url(../font/NBInternationalProBoo.ttf);
+}
+
+@font-face {
+  font-family: pb;
+  src: url(../font/Rejouice-Headline.ttf);
+}
+
+@media screen and (max-width: 768px) {
+  .page2Heading {
+    font-size: 60px;
+    /* Adjust the font size as needed for smaller screens */
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "nb";
+
+}
+
+html,
+body,
+#page1,
+#page2,
+#page3,
+#page4,
+#page5,
+#page6 {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+
+#page1 {
+  height: 100vh;
+  max-width: 100%;
+
+}
+
+.cursor {
+  height: 7.5vw;
+  width: 7.5vw;
+  background-color: #0b9c26;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+
+.Nav2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.cursor h5 {
+  font-size: 1.2vw;
+  font-weight: 500;
+  color: rgb(226, 226, 226);
+}
+
+.vid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.page1-content {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 10;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding: 3vw 3vw;
+}
+
+nav h3 {
+  font-size: 2.0vw;
+  font-weight: 100;
+}
+
+nav h4 {
+  font-size: 1.4vw;
+  font-weight: 100;
+}
+
+.page1-content h1 {
+  font-family: pb;
+  font-size: 24vw;
+  font-weight: 100;
+}
+
+.page1-content h1 span {
+  font-family: pb;
+}
+
+
+#page2,
+#page3 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.page2Heading {
+  display: block;
+  font-weight: 20;
+  font-size: 50px;
+  font-family: pb;
+}
+
+.page-2-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  /* Ensures the background image is behind other content */
+}
+
+.elem {
+  position: absolute;
+  top: 15%;
+  /* Adjust as needed */
+  left: 10%;
+  /* Adjust as needed */
+  z-index: 2;
+  /* Ensures the .elem div appears above the background image */
+  background-color: white;
+  width: 80%;
+  height: 80%;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+.elem h1 {
+  font-family: nb;
+  font-weight: 50;
+  text-align: center;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7%;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.01));
+  z-index: 3;
+  /* Ensure the overlay appears above the background image */
+}
+
+.page1 .gradient-overlay {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.6));
+  z-index: 2;
+}
+
+
+
+.nav-items {
+  color: white;
+  text-decoration: none;
+}
+
+.page2_content {
+  font-size: 22px;
+}
+
+
+.page_3_heading {
+  margin-left: 28%;
+}
+
+.diseased_plant_div {
+
+  width: 100%;
+  height: 70%;
+
+}
+
+.disease_content {
+  width: 24.7%;
+  height: 40%;
+  display: inline-block;
+}
+
+.diseased_plant_images {
+  width: 80%;
+  height: 120px;
+  margin: 6%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+
+
+}
+
+.disease_text {
+
+  font-family: pb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.disease_decription {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.button {
+  margin-top: 20px;
+  margin-left: 39%;
+  padding: 50px;
+  border: none;
+  padding: 6px 8px 6px 8px;
+  border-radius: 15px;
+  background-color: rgb(4, 193, 10);
+  color: white;
+  font-weight: bold;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  vertical-align: middle;
+  width: 200px;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.button:active {
+  opacity: 0.4;
+}
+
+.button_text {
+  color: white;
+  text-decoration: none;
+  font-family: pb;
+
+}
+
+.button_text:hover {
+  color: white;
+}
