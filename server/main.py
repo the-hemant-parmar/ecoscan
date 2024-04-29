@@ -26,7 +26,7 @@ app.add_middleware(
 )
 
 
-MODEL = tf.keras.models.load_model("three.keras")
+MODEL = tf.keras.models.load_model("C:/Users/knowl/OneDrive/Desktop/Abhinay/VS_Code/MERN/ecoscan/server/three.keras")
 print(MODEL.summary())
 
 CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
