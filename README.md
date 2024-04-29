@@ -2,11 +2,27 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Installation Guide
+### Step 1. `Clone the repository to your local env.`
+### Step 2. `npm i`
+### Step 3. `pip i tensorflow pillow numpy uvicorn fasapi`
+### Step 4. `run server/main.py` (to run fastAPI Server on http://localhost:8000/predict )
+### Step 5. `npm start` (to run react app on http://localhost:3000)
 
+
+# App Preview
+## Landing Page
+![alt text](image-1.png)
+## Form
+![alt text](image-2.png)
+## Response
+![alt text](image.png)
+## Working
+<video controls src="bandicam 2024-04-29 18-46-47-431.mp4" title="Title"></video>
+## Available Scripts
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` (to run react app)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
